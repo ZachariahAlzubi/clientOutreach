@@ -10,9 +10,9 @@ from outreach.search import google_search_with_timeout
 from outreach.scraping import scrape_website_with_timeout
 from outreach.cleaning import clean_email, clean_business_name
 
-# Proxy settings
-username = 'user-splx70gleh-country-us'
-password = 'h4ui90lsvyZOS2chAr'
+# Proxy settings  insert your own credentials
+username = ''
+password = ''
 proxy = f"socks5h://{username}:{password}@gate.smartproxy.com:7000"
 proxies = {
     'http': proxy,
